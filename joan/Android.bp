@@ -28,23 +28,25 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "HotwordEnrollmentOKGoogleHEXAGON",
 	owner: "lge",
-	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
+	apk: "proprietary/system_ext/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
+	system_ext_specific: true,
 }
 
 android_app_import {
 	name: "HotwordEnrollmentXGoogleHEXAGON",
 	owner: "lge",
-	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
+	apk: "proprietary/system_ext/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
+	system_ext_specific: true,
 }
 
 android_app_import {
